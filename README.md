@@ -1,7 +1,5 @@
 # Next.js 14 Server Actions Tutorial - To-Do App
 
-A boilerplate Next.js application with an integrated To-Do API
-
 ## Getting Started
 
 1. **Create a Next.js App Using this repo as an example**
