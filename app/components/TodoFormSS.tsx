@@ -15,7 +15,7 @@ export default function TodoFormSS() {
       dueDate: dueDate,
     };
     // Post new Todo to our mock database
-    await axios.post("http://localhost:3000/todos/api", newTodoBody);
+    await axios.post("http://localhost:3000/api/todos/", newTodoBody);
     // Refetch Todo's
     revalidateTag("ToDo");
     // Redirect them back to the Homepage
